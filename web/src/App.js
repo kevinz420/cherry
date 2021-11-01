@@ -3,12 +3,10 @@ import './App.css';
 import HomePage from './pages/home';
 import AboutPage from './pages/about';
 import AnalyticsPage from './pages/analytics';
-import NavBar from './components/NavBar';
 
 function App() {
   return (
     <div className="App">
-      <NavBar/>
       <Switch>
         <Route path="/login">
           <h2>TODO: Login with Shibboleth</h2>
